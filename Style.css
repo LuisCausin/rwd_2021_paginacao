@@ -1,0 +1,23 @@
+body{
+    background-color: black;
+    text-align: center;
+    margin-top: 50px;
+}
+
+p{
+    color:white;
+}
+
+ul li {display: inline;}
+
+ul li a { color: grey;
+font-size: 20px;
+border: 1px solid;
+float:inherit       ;
+padding: 10px 20px;
+text-decoration: none;
+text-decoration-color: grey;
+}
+
+
+ul li a:hover:not(.active) {background-color: grey;}
